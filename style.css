@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 15%;
+    text-align: center;
+}
+
+​ strong {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+button {
+    width: auto;
+    padding: 10px 15px;
+    border: none;
+}
+
+button:not(:last-child) {
+    border-right: none;
+}
+
+button:hover {
+    background-color: lightgray;
+}
